@@ -1,0 +1,62 @@
+/* box-sizing:border-boxの設定 */
+/* marginのリセット */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    margin: 0;
+    box-sizing: inherit;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* a要素のテキストカラーを継承する */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* main要素にoverflow-x:hiddenを指定する */
+main {
+    overflow-x: hidden;
+}
+
+
+
+.bg-blue {
+    background-color: rgb(62, 139, 255);
+}
+
+.bg-message {
+    background-color: rgb(255, 236, 153);
+}
+
+.btn-design {
+    /* border: 1px solid #5bc8ac; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5bc8ac;
+    background: #fff;
+    font-size: 24px;
+    transition: .5s;
+}
+
+/* マウスオーバー時 */
+.btn-design:hover{
+    color: #fff;
+    background: #5bc8ac;
+    transition: .5s;
+
+    }
+
