@@ -1,3 +1,4 @@
+/* ここから書いてください */
 /* box-sizing:border-boxの設定 */
 /* marginのリセット */
 
@@ -33,22 +34,14 @@ main {
     background-color: rgb(62, 139, 255);
 }
 
-.bg-message {
-    background-color: rgb(255, 236, 153);
-}
 
 .btn-design {
-    /* border: 1px solid #5bc8ac; */
     margin-left: auto;
     margin-right: auto;
     width: 48px;
     height: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: #5bc8ac;
     background: #fff;
-    font-size: 24px;
     transition: .5s;
 }
 

@@ -18,7 +18,6 @@ var vm = new Vue({
     methods: {
         inputTodo: function(){
             //テキストの入力を受け取り、todoListに保存
-            // this.inputDate = this.inputDate.replace(/-/g, "/")
             this.todoList.push({ key:this.count, deadline:this.inputDate, text: this.inputText });
             this.count++;
             this.inputText = "";
